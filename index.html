@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="mainsection">
+        <header>
+            <h1>Currency Converter</h1>
+        </header>
+
+        <div class="form">
+            <div >
+                <H2 class="amount">Enter Amount!!</H2>
+                <input class="enteramount" type="text" placeholder="Enter amount">
+            </div>
+
+                          <div class="dropdown">
+                <div class="from">
+                    <div class="content1">
+                        <p>FROM</p>
+                    </div>
+                  <div class="part1">
+                       <img  src="https://flagsapi.com/US/flat/64.png">
+                         
+                            <select name="Convertfrom" id="Convertfrom">
+                               <option value = "USD">USD</option>
+                            </select>
+                          
+                    </div>
+                </div>
+
+
+
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                </div>
+
+                <div class="to">
+                    <div class="content2">
+                        <p> To</p>
+                    </div>
+                    <div class="part2">
+                       <img  src="https://flagsapi.com/IN/flat/64.png">
+                       
+                            <select name="Convertto" id="Convertto">
+                                <option value = "INR">INR</option>
+                            </select>
+                     
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div >
+                <p class="rates">1USD = 90 INR</p>
+            </div>
+
+        </div>
+        <button>Get me the exchange rates!!</button>
+    </div>
+
+
+
+
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
